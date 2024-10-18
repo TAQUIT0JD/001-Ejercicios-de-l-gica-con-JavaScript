@@ -1,0 +1,11 @@
+let s, r, m, d;
+let n1 = prompt('Ingresa un número: ');
+let n2 = prompt('Ingresa otro número: ');
+s= parseInt(n1)+parseInt(n2);
+r=n1-n2;
+m=n1*n2;
+d=n1/n2;
+console.log('El resultado de la suma de los números es: '+s);
+console.log('El resultado de la resta de los números es: '+r);
+console.log('El resultado de la multiplicación de los números es: '+m);
+console.log('El resultado de la división de los números es: '+d);
